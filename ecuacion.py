@@ -1,5 +1,6 @@
 def ecuacion():
-    pow(2x,2)-3x+6=0
+    solve(2*x**2-3*x+6)
+    print x
     
 
 
