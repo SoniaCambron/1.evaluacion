@@ -1,10 +1,10 @@
 def par_impar ():
-    print "Dime un numero del 1 al 10"
-    a=input("A= ")
-    if(a%2==0):
-        print "par"
+    a=input("Hasta que numero cuento: ")
+    for i in range (1, a):
+        if(i%2==0):
+            print i, "=par"
 
-    else:
-        print "impar"
+        else:
+            print i, "=impar"
     
 par_impar()
