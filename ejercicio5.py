@@ -1,9 +1,9 @@
 def ejercicio5():
-    print"Dime un día"
+    print"Dime un dÃ­a"
     a=input("A= ")
     print"Dime un numero de mes"
     b=input("B= ")
-    print"Dime un año"
+    print"Dime un aÃ±o"
     c=input("C= ")
     if(b==1):
         b="Enero"
@@ -29,7 +29,7 @@ def ejercicio5():
         b="Noviembre"
     if(b==12):
         b="Diciembre"
-     print a, "de", b, "de", c
+    print a, "de", b, "de", c
 
-    ejercicio5()
+ejercicio5()
             
