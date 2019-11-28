@@ -9,8 +9,7 @@ def pajarita():
             asterisco=asterisco+"*"
         
         if(filas==filas/2):
-            asterisco=asterisco*filas
-            espacio=0
+            asterisco=filas
         print asterisco+espacios+asterisco
         espacios=" "
         asterisco="*"
